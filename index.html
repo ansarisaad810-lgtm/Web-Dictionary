@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>College-Level Dictionary</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <div class="card">
+        <div class="text-center mb-8">
+            <div class="icon-header">
+                <img src="images/logo.png" alt="Dictionary Logo" class="logo-image">
+            </div>
+            <h1>Dictionary</h1>
+            <p class="subtitle">Explore the meaning of words</p>
+        </div>
+
+        <div class="search-box">
+            <input type="text" id="wordInput" placeholder="Enter an English word">
+            <button onclick="searchWord()">Search</button>
+        </div>
+        <div id="spinner" class="spinner"></div>
+        <div id="error" class="error-message"></div>
+    </div>
+
+    <div id="resultsContainer" class="results-stack"></div>
+
+    <script src="script.js"></script>
+</body>
+
+</html>
+
+</html>
